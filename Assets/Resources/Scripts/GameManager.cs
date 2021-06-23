@@ -9,13 +9,17 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        BitCoin = 0;
-        CoinMultiplayer = 1;
+        BitCoin = PlayerPrefs.GetInt("BitCoin",0);
+        CoinMultiplayer = PlayerPrefs.GetInt("CoinMultiplayer", 1);
     }
 
     
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            PlayerPrefs.DeleteAll();
+        }
         
     }
 }
