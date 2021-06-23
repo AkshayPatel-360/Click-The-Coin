@@ -145,3 +145,80 @@ Received Import Request.
   path: Assets/Resources/Pngs/1200px-Red_circle.svg.png
   artifactKey: Guid(0a1e5799076f330499c94236fd893b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Resources/Pngs/1200px-Red_circle.svg.png using Guid(0a1e5799076f330499c94236fd893b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4648c997cec3d3b91fb2b710106116e8') in 0.016465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.735672 seconds.
+  path: Assets/Resources/Prefabs
+  artifactKey: Guid(ee8633ce8e6e6b0469d3450133fc6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs using Guid(ee8633ce8e6e6b0469d3450133fc6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260bbc038d86aa3253832d42f647e429') in 0.005609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 575.230027 seconds.
+  path: Assets/Resources/Pngs/crypto backgroung mobile.jpg
+  artifactKey: Guid(ce98b3ebf0f86f8498597565c5d01d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pngs/crypto backgroung mobile.jpg using Guid(ce98b3ebf0f86f8498597565c5d01d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedbf33cd532ecb18475bae0389edef9') in 0.020708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2257.548254 seconds.
+  path: Assets/Resources/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(7007de8c3022b5b4b9ae953495cf02ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Scripts/NewBehaviourScript.cs using Guid(7007de8c3022b5b4b9ae953495cf02ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6434c7403d51167e58ebddb794d4ac') in 0.020958 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007785 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\Unity\Projects\Click The Coin\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\Unity\Projects\Click The Coin\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2190ms)
+		BeginReloadAssembly (301ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1781ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (651ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3739 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4242.
+Total: 5.218100 ms (FindLiveObjects: 0.483700 ms CreateObjectMapping: 0.376600 ms MarkObjects: 4.310400 ms  DeleteObjects: 0.045400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
