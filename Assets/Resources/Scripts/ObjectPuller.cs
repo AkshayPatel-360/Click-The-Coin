@@ -7,7 +7,7 @@ public class ObjectPuller : MonoBehaviour
     public static ObjectPuller currentObjectPuller;
     public GameObject PulledObject;
     [SerializeField] private int pullAmount;
-    private bool willGrow;
+    private bool willGrow = true;
 
     private List<GameObject> pulledObjects;
 
@@ -33,17 +33,18 @@ public class ObjectPuller : MonoBehaviour
         {
             if (!pulledObjects[i].activeInHierarchy)
             {
+                pulledObjects[i].SetActive(true);
                 return pulledObjects[i];
 
             }
         }
 
-        if (willGrow)
+       /* if (willGrow)
         {
             GameObject obj = Instantiate(PulledObject);
             pulledObjects.Add(obj);
             return obj;
-        }
+        }*/
 
         return null;
     }
